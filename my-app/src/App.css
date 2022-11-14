@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose&display=swap");
+.App {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-image: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  justify-content: center;
+}
+.App header {
+  background-color: transparent;
+  width: 1240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 58px;
+}
+.App header img {
+  width: 233px;
+  height: 33px;
+}
+.App header div {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  max-width: 100%;
+  align-items: center;
+}
+.App header div a {
+  text-decoration: none;
+  font-family: "Red Rose", cursive;
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+}
+.App header button {
+  width: 170px;
+  background-image: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 16px;
+  height: 48px;
+  text-align: center;
+  border: none;
+}/*# sourceMappingURL=App.css.map */
