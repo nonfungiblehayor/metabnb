@@ -156,7 +156,6 @@ $font: 'Red Rose', cursive;
             gap: 10px;
             row-gap: 20px;
             .adventure-sectionn {
-                // width: 300px;
                 height: 372px;
                 border-radius: 15px;
                 border: 1px solid #D7D7D7;
@@ -201,6 +200,47 @@ $font: 'Red Rose', cursive;
                     }
                 }
             }
+        }
+    }
+    .nft-section {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        background-image: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+        padding-top: 80px;
+        justify-content: space-evenly;
+        margin-top: 80px;
+        padding-bottom: 80px;
+        div {
+            display: flex;
+            flex-direction: column;
+            h3 {
+                font-size: 48px;
+                font-family: $font;
+                font-weight: 700;
+                color: #FFFFFF;
+            }
+            p {
+                font-size: 18px;
+                font-family: $font;
+                font-weight: 400;
+                color: #FFFFFF;
+                width: 415px;
+                margin-bottom: 60px;
+            }
+            a {
+                text-decoration: none;
+                background-color: #FFFFFF;
+                width: 156px;
+                border: none;
+                text-align: center;
+                border-radius: 8px;
+                padding: 10px;
+                color: #A02279;
+            }
+        }
+        img {
+            width: 600px;
         }
     }
 }

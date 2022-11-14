@@ -200,4 +200,45 @@
 .App .adventure-section .adventureCh .adventure-sectionn .adventure-section2 img {
   width: 12px;
   height: 12px;
+}
+.App .nft-section {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  background-image: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  padding-top: 80px;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+.App .nft-section div {
+  display: flex;
+  flex-direction: column;
+}
+.App .nft-section div h3 {
+  font-size: 48px;
+  font-family: "Red Rose", cursive;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.App .nft-section div p {
+  font-size: 18px;
+  font-family: "Red Rose", cursive;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 415px;
+  margin-bottom: 60px;
+}
+.App .nft-section div a {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  width: 156px;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  color: #A02279;
+}
+.App .nft-section img {
+  width: 600px;
 }/*# sourceMappingURL=App.css.map */

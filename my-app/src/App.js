@@ -3,6 +3,7 @@ import Header from './components/header'
 import Places from './components/section1'
 import IconSection from './components/icon-section';
 import AdventureSection from './components/adventure-section';
+import MetaNft from './components/nft-section';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Places />  
       <IconSection /> 
       <AdventureSection />  
+      <MetaNft />
     </div>
   );
 }
