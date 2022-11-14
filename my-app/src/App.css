@@ -241,4 +241,70 @@
 }
 .App .nft-section img {
   width: 600px;
+}
+.App footer {
+  background-color: #1D1D1E;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+.App footer .footer-div {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+.App footer .footer-div img {
+  width: 233px;
+}
+.App footer .footer-div .social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.App footer .footer-div .social-media img {
+  width: 18px;
+  height: 18px;
+}
+.App footer .footer-div .copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.App footer .footer-div .copyright img {
+  width: 18px;
+  height: 18px;
+}
+.App footer .footer-div .copyright span {
+  font-size: 16px;
+  font-family: "Red Rose", cursive;
+  font-weight: 400;
+  color: #F7F7F7;
+}
+.App footer .footerChild {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 180px;
+}
+.App footer .footerChild nav {
+  display: flex;
+  flex-direction: column;
+}
+.App footer .footerChild nav p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-family: "Red Rose", cursive;
+}
+.App footer .footerChild nav a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: "Red Rose", cursive;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=App.css.map */
