@@ -114,4 +114,29 @@ $font: 'Red Rose', cursive;
             }        
         }
     }
+    .icon-section {
+        max-width: 100%;
+        background-image: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 80px;
+        height: 100px;
+        align-items: center;
+        div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img {
+                width: 50px;
+                height: 50px;
+            }
+            h2 {
+                font-family: $font;
+                font-size: 40px;
+                font-weight: 700;
+                color: #F7F7F7;
+            }
+        }
+    }
 }
