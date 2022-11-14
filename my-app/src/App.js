@@ -10,11 +10,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Places />  
+        <Places />  
       <IconSection /> 
       <AdventureSection />  
       <MetaNft />
-      <Footer />
+     <Footer /> 
     </div>
   );
 }
