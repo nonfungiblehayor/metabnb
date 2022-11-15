@@ -1003,13 +1003,17 @@
     height: 25px;
   }
   .App header div {
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 25px;
     max-width: 100%;
     align-items: center;
     z-index: 1;
-    margin-top: -140px;
+    margin-top: -200px;
+  }
+  .App header div img {
+    width: 40px;
+    height: 40px;
   }
   .App header div a {
     text-decoration: none;

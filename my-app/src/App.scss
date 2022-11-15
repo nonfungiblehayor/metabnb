@@ -1009,13 +1009,17 @@ $font: 'Red Rose', cursive;
                     height: 25px;
                 }
                 div {
-                    display: none;
+                    display: flex;
                     flex-direction: column;
                     gap: 25px;
                     max-width: 100%;
                     align-items: center;
                     z-index: 1;
-                    margin-top: -140px;
+                    margin-top: -200px;
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    } 
                     a {
                         text-decoration: none;
                         font-family: $font;
