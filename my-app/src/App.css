@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Rose&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap");
 .App {
   padding: 0;
   margin: 0;
@@ -38,6 +39,23 @@
   font-weight: 300;
 }
 .App header div button {
+  display: none;
+}
+.App header .normal-div {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  max-width: 100%;
+  align-items: center;
+}
+.App header .normal-div a {
+  text-decoration: none;
+  font-family: "Red Rose", cursive;
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+}
+.App header .normal-div button {
   display: none;
 }
 .App header button {
@@ -314,6 +332,87 @@
   font-family: "Red Rose", cursive;
   margin-bottom: 15px;
 }
+.App .modal-section {
+  max-width: 100%;
+  background-color: rgba(64, 64, 64, 0.281);
+  z-index: 1;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: -800px;
+}
+.App .modal-section .modal-wallet-select {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 320px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-top: -50px;
+}
+.App .modal-section .modal-wallet-select .wallet-select-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  align-items: center;
+  border-bottom: 1px solid #CFD8DC;
+}
+.App .modal-section .modal-wallet-select .wallet-select-nav p {
+  font-family: "Red Rose", cursive;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 700;
+}
+.App .modal-section .modal-wallet-select .wallet-select-nav img {
+  width: 24px;
+  height: 24px;
+}
+.App .modal-section .modal-wallet-select .wallet-type-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+.App .modal-section .modal-wallet-select .wallet-type-nav span {
+  font-size: 16px;
+  font-weight: 400;
+  font-weight: "Red Rose", cursive;
+  color: #333333;
+}
+.App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div {
+  display: flex;
+  flex-direction: row;
+  width: 536px;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #CFD8DC;
+  justify-content: space-between;
+  padding: 8px;
+}
+.App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div img {
+  width: 44px;
+  height: 44px;
+}
+.App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+}
+.App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div .arrow {
+  width: 15px;
+  height: 12px;
+}
 
 @media screen and (max-width: 1300px) and (min-width: 769px) {
   .App {
@@ -356,6 +455,23 @@
     font-weight: 300;
   }
   .App header div button {
+    display: none;
+  }
+  .App header .normal-div {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .App header .normal-div a {
+    text-decoration: none;
+    font-family: "Red Rose", cursive;
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+  }
+  .App header .normal-div button {
     display: none;
   }
   .App header button {
@@ -642,6 +758,87 @@
     font-family: "Red Rose", cursive;
     margin-bottom: 15px;
   }
+  .App .modal-section {
+    max-width: 100%;
+    background-color: rgba(64, 64, 64, 0.281);
+    z-index: 1;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: -800px;
+  }
+  .App .modal-section .modal-wallet-select {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 320px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: -50px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-select-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    align-items: center;
+    border-bottom: 1px solid #CFD8DC;
+  }
+  .App .modal-section .modal-wallet-select .wallet-select-nav p {
+    font-family: "Red Rose", cursive;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .App .modal-section .modal-wallet-select .wallet-select-nav img {
+    width: 24px;
+    height: 24px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav span {
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: "Red Rose", cursive;
+    color: #333333;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div {
+    display: flex;
+    flex-direction: row;
+    width: 536px;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #CFD8DC;
+    justify-content: space-between;
+    padding: 8px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div img {
+    width: 44px;
+    height: 44px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Sora", sans-serif;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div .arrow {
+    width: 15px;
+    height: 12px;
+  }
 }
 @media screen and (max-width: 768px) and (min-width: 582px) {
   .App {
@@ -684,6 +881,23 @@
     font-weight: 300;
   }
   .App header div button {
+    display: none;
+  }
+  .App header .normal-div {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .App header .normal-div a {
+    text-decoration: none;
+    font-family: "Red Rose", cursive;
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+  }
+  .App header .normal-div button {
     display: none;
   }
   .App header button {
@@ -971,6 +1185,87 @@
     font-family: "Red Rose", cursive;
     margin-bottom: 15px;
   }
+  .App .modal-section {
+    max-width: 100%;
+    background-color: rgba(64, 64, 64, 0.281);
+    z-index: 1;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: -800px;
+  }
+  .App .modal-section .modal-wallet-select {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 280px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: -50px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-select-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #CFD8DC;
+  }
+  .App .modal-section .modal-wallet-select .wallet-select-nav p {
+    font-family: "Red Rose", cursive;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .App .modal-section .modal-wallet-select .wallet-select-nav img {
+    width: 20px;
+    height: 20px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav span {
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: "Red Rose", cursive;
+    color: #333333;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #CFD8DC;
+    justify-content: space-between;
+    padding: 4px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div img {
+    width: 34px;
+    height: 34px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Sora", sans-serif;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div .arrow {
+    width: 15px;
+    height: 12px;
+  }
 }
 @media screen and (max-width: 581px) and (min-width: 320px) {
   .App {
@@ -1034,6 +1329,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .App header .normal-div {
+    display: none;
+    flex-direction: row;
+    gap: 35px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .App header .normal-div a {
+    text-decoration: none;
+    font-family: "Red Rose", cursive;
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+  }
+  .App header .normal-div button {
+    display: none;
   }
   .App header .connect {
     display: none;
@@ -1324,5 +1636,86 @@
     color: #FFFFFF;
     font-family: "Red Rose", cursive;
     margin-bottom: 15px;
+  }
+  .App .modal-section {
+    max-width: 100%;
+    background-color: rgba(64, 64, 64, 0.281);
+    z-index: 1;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: -800px;
+  }
+  .App .modal-section .modal-wallet-select {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 280px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: -50px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-select-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #CFD8DC;
+  }
+  .App .modal-section .modal-wallet-select .wallet-select-nav p {
+    font-family: "Red Rose", cursive;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .App .modal-section .modal-wallet-select .wallet-select-nav img {
+    width: 20px;
+    height: 20px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav span {
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: "Red Rose", cursive;
+    color: #333333;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #CFD8DC;
+    justify-content: space-between;
+    padding: 4px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div img {
+    width: 24px;
+    height: 24px;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Sora", sans-serif;
+  }
+  .App .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div .arrow {
+    width: 15px;
+    height: 12px;
   }
 }/*# sourceMappingURL=App.css.map */

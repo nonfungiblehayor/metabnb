@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
 
 $font: 'Red Rose', cursive;
 .App {
@@ -40,6 +41,23 @@ $font: 'Red Rose', cursive;
             display: none;
         }
       } 
+      .normal-div {
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+        max-width: 100%;
+        align-items: center;
+        a {
+            text-decoration: none;
+            font-family: $font;
+            font-size: 20px;
+            color: black;
+            font-weight: 300;
+        }
+        button {
+          display: none;
+      }
+    } 
       button {
           width: 170px;
           background-image: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
@@ -315,6 +333,89 @@ $font: 'Red Rose', cursive;
             }
         }
     }
+    .modal-section {
+        max-width: 100%;
+        background-color: rgba(64, 64, 64, 0.281);
+        z-index: 1;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: -800px;
+        .modal-wallet-select {
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            height: 320px;
+            border-radius: 16px;
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin-top: -50px;
+            .wallet-select-nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 600px;
+                align-items: center;      
+                border-bottom: 1px solid #CFD8DC;         
+                p {
+                    font-family: $font;
+                    color: #333333;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+            .wallet-type-nav {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 25px;
+                // align-items: center;
+                // justify-content: center;
+                span {
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-weight: $font;
+                    color: #333333;
+                }
+                .wallet-type-div {
+                    display: flex;
+                    flex-direction: row;     
+                    width: 536px;
+                    align-items: center;
+                    border-radius: 12px;
+                    border: 1px solid #CFD8DC; 
+                    justify-content: space-between;  
+                    padding: 8px;            
+                    div {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 5px;
+                    img {
+                        width: 44px;
+                        height: 44px;
+                    }   
+                    p {
+                        color: #000000;
+                        font-size: 18px;
+                        font-weight: 600;
+                        font-family: 'Sora', sans-serif;
+                    }
+                }
+                    .arrow {
+                        width: 15px;
+                        height: 12px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and(max-width: 1300px) and(min-width: 769px){
@@ -357,6 +458,23 @@ $font: 'Red Rose', cursive;
                 button {
                     display: none;
                 }
+            } 
+            .normal-div {
+                display: flex;
+                flex-direction: row;
+                gap: 35px;
+                max-width: 100%;
+                align-items: center;
+                a {
+                    text-decoration: none;
+                    font-family: $font;
+                    font-size: 20px;
+                    color: black;
+                    font-weight: 300;
+                }
+                button {
+                  display: none;
+              }
             } 
             button {
                 width: 120px;
@@ -645,6 +763,89 @@ $font: 'Red Rose', cursive;
             }
         }
     }
+    .modal-section {
+        max-width: 100%;
+        background-color: rgba(64, 64, 64, 0.281);
+        z-index: 1;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: -800px;
+        .modal-wallet-select {
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            height: 320px;
+            border-radius: 16px;
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin-top: -50px;
+            .wallet-select-nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 600px;
+                align-items: center;      
+                border-bottom: 1px solid #CFD8DC;         
+                p {
+                    font-family: $font;
+                    color: #333333;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+            .wallet-type-nav {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 25px;
+                // align-items: center;
+                // justify-content: center;
+                span {
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-weight: $font;
+                    color: #333333;
+                }
+                .wallet-type-div {
+                    display: flex;
+                    flex-direction: row;     
+                    width: 536px;
+                    align-items: center;
+                    border-radius: 12px;
+                    border: 1px solid #CFD8DC; 
+                    justify-content: space-between;  
+                    padding: 8px;            
+                    div {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 5px;
+                    img {
+                        width: 44px;
+                        height: 44px;
+                    }   
+                    p {
+                        color: #000000;
+                        font-size: 18px;
+                        font-weight: 600;
+                        font-family: 'Sora', sans-serif;
+                    }
+                }
+                    .arrow {
+                        width: 15px;
+                        height: 12px;
+                    }
+                }
+            }
+        }
+    }
       }  
 }
 
@@ -688,6 +889,23 @@ $font: 'Red Rose', cursive;
                 button {
                     display: none;
                 }
+            } 
+            .normal-div {
+                display: flex;
+                flex-direction: row;
+                gap: 35px;
+                max-width: 100%;
+                align-items: center;
+                a {
+                    text-decoration: none;
+                    font-family: $font;
+                    font-size: 20px;
+                    color: black;
+                    font-weight: 300;
+                }
+                button {
+                  display: none;
+              }
             } 
             button {
                 width: 90px;
@@ -977,6 +1195,90 @@ $font: 'Red Rose', cursive;
                 }
             }
         }
+        .modal-section {
+        max-width: 100%;
+        background-color: rgba(64, 64, 64, 0.281);
+        z-index: 1;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: -800px;
+        .modal-wallet-select {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            height: 280px;
+            border-radius: 16px;
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin-top: -50px;
+            .wallet-select-nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                // width: 400px;
+                max-width: 100%;
+                align-items: center;      
+                border-bottom: 1px solid #CFD8DC;         
+                p {
+                    font-family: $font;
+                    color: #333333;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            .wallet-type-nav {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 25px;
+                // align-items: center;
+                // justify-content: center;
+                span {
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-weight: $font;
+                    color: #333333;
+                }
+                .wallet-type-div {
+                    display: flex;
+                    flex-direction: row;     
+                    width: 500px;
+                    align-items: center;
+                    border-radius: 12px;
+                    border: 1px solid #CFD8DC; 
+                    justify-content: space-between;  
+                    padding: 4px;       
+                    div {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 5px;
+                    img {
+                        width: 34px;
+                        height: 34px;
+                    }   
+                    p {
+                        color: #000000;
+                        font-size: 18px;
+                        font-weight: 600;
+                        font-family: 'Sora', sans-serif;
+                    }
+                }
+                    .arrow {
+                        width: 15px;
+                        height: 12px;
+                    }
+                }
+            }
+        }
+    }
     }    
 }
 
@@ -1041,6 +1343,23 @@ $font: 'Red Rose', cursive;
                         justify-content: center;
                     }                    
                 }
+                .normal-div {
+                    display: none;
+                    flex-direction: row;
+                    gap: 35px;
+                    max-width: 100%;
+                    align-items: center;
+                    a {
+                        text-decoration: none;
+                        font-family: $font;
+                        font-size: 20px;
+                        color: black;
+                        font-weight: 300;
+                    }
+                    button {
+                      display: none;
+                  }
+                } 
                 .connect {
                     display: none;
                 }
@@ -1330,6 +1649,90 @@ $font: 'Red Rose', cursive;
                         color: #FFFFFF;
                         font-family: $font;
                         margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+        .modal-section {
+            max-width: 100%;
+            background-color: rgba(64, 64, 64, 0.281);
+            z-index: 1;
+            height: 800px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            margin-bottom: -800px;
+            .modal-wallet-select {
+                display: flex;
+                flex-direction: column;
+                width: 250px;
+                height: 280px;
+                border-radius: 16px;
+                background-color: #FFFFFF;
+                padding: 20px;
+                margin-top: -50px;
+                .wallet-select-nav {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    // width: 400px;
+                    max-width: 100%;
+                    align-items: center;      
+                    border-bottom: 1px solid #CFD8DC;         
+                    p {
+                        font-family: $font;
+                        color: #333333;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                .wallet-type-nav {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    margin-top: 25px;
+                    // align-items: center;
+                    // justify-content: center;
+                    span {
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-weight: $font;
+                        color: #333333;
+                    }
+                    .wallet-type-div {
+                        display: flex;
+                        flex-direction: row;     
+                        width: 250px;
+                        align-items: center;
+                        border-radius: 12px;
+                        border: 1px solid #CFD8DC; 
+                        justify-content: space-between;  
+                        padding: 4px;       
+                        div {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 5px;
+                        img {
+                            width: 24px;
+                            height: 24px;
+                        }   
+                        p {
+                            color: #000000;
+                            font-size: 18px;
+                            font-weight: 600;
+                            font-family: 'Sora', sans-serif;
+                        }
+                    }
+                        .arrow {
+                            width: 15px;
+                            height: 12px;
+                        }
                     }
                 }
             }

@@ -5,12 +5,23 @@ import IconSection from './components/icon-section';
 import AdventureSection from './components/adventure-section';
 import MetaNft from './components/nft-section';
 import Footer from './components/footer';
+import Modal from './components/modal';
+import { useState} from 'react'
 
 function App() {
+  const [openMenu,closeMenu] = useState(false)
+    
+  const showModal = function() {
+      closeMenu(!openMenu)
+  }
+  const hideModal = function() {
+      closeMenu(!openMenu)
+  }
   return (
     <div className="App">
-      <Header />
-         <Places />  
+      {openMenu ? <Modal hide={hideModal}/> : ''}
+      <Header show={showModal}/>
+        <Places />  
       <IconSection /> 
       <AdventureSection />  
       <MetaNft />
