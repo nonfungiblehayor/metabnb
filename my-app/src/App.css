@@ -860,7 +860,7 @@
     align-items: center;
   }
   .App header img {
-    width: 80px;
+    width: 60px;
     height: 33px;
   }
   .App header .menu {
@@ -886,14 +886,14 @@
   .App header .normal-div {
     display: flex;
     flex-direction: row;
-    gap: 35px;
+    gap: 15px;
     max-width: 100%;
     align-items: center;
   }
   .App header .normal-div a {
     text-decoration: none;
     font-family: "Red Rose", cursive;
-    font-size: 20px;
+    font-size: 16px;
     color: black;
     font-weight: 300;
   }
@@ -1304,7 +1304,7 @@
     max-width: 100%;
     align-items: center;
     z-index: 1;
-    margin-top: -200px;
+    margin-top: 50px;
   }
   .App header div img {
     width: 40px;

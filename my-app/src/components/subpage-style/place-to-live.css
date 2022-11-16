@@ -1,0 +1,1320 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap");
+.place-section {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  justify-content: center;
+}
+.place-section header {
+  background-color: transparent;
+  width: 1240px;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 58px;
+}
+.place-section header img {
+  width: 233px;
+  height: 33px;
+}
+.place-section header .menu {
+  display: none;
+}
+.place-section header div {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  max-width: 100%;
+  align-items: center;
+}
+.place-section header div a {
+  text-decoration: none;
+  font-family: "Red Rose", cursive;
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+}
+.place-section header div button {
+  display: none;
+}
+.place-section header .normal-div {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  max-width: 100%;
+  align-items: center;
+}
+.place-section header .normal-div a {
+  text-decoration: none;
+  font-family: "Red Rose", cursive;
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+}
+.place-section header .normal-div button {
+  display: none;
+}
+.place-section header button {
+  width: 170px;
+  background-image: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 16px;
+  height: 48px;
+  text-align: center;
+  border: none;
+}
+.place-section .subsection-class {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 80px;
+}
+.place-section .subsection-class div {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+.place-section .subsection-class div a {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Red Rose", cursive;
+  color: #434343;
+  text-decoration: none;
+}
+.place-section .subsection-class nav {
+  display: flex;
+  flex: row;
+  width: 161px;
+  height: 48px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #B4B4B4;
+  border-radius: 8px;
+}
+.place-section .subsection-class nav p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Red Rose", cursive;
+  color: #434343;
+}
+.place-section .subsection-class nav img {
+  width: 24px;
+  height: 24px;
+}
+.place-section .adventure-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+  margin-top: 130px;
+  margin-bottom: 80px;
+}
+.place-section .adventure-section .adventureCh {
+  display: grid;
+  grid-template-columns: 260px 260px 260px 260px;
+  gap: 10px;
+  row-gap: 20px;
+  justify-content: center;
+}
+.place-section .adventure-section .adventureCh .adventure-sectionn {
+  height: 372px;
+  border-radius: 15px;
+  border: 1px solid #D7D7D7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.place-section .adventure-section .adventureCh .adventure-sectionn img {
+  width: 220px;
+  align-self: center;
+}
+.place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 15px;
+  align-items: center;
+  margin-bottom: -40px;
+}
+.place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 span {
+  font-size: 10px;
+  font-weight: 400;
+  color: #434343;
+  font-family: "Red Rose", cursive;
+}
+.place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 h6 {
+  font-size: 10px;
+  font-weight: 700;
+  color: #434343;
+  font-family: "Red Rose", cursive;
+  width: 130px;
+}
+.place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section2 img {
+  width: 12px;
+  height: 12px;
+}
+.place-section footer {
+  background-color: #1D1D1E;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+.place-section footer .footer-div {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+.place-section footer .footer-div img {
+  width: 233px;
+}
+.place-section footer .footer-div .social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.place-section footer .footer-div .social-media img {
+  width: 18px;
+  height: 18px;
+}
+.place-section footer .footer-div .copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.place-section footer .footer-div .copyright img {
+  width: 18px;
+  height: 18px;
+}
+.place-section footer .footer-div .copyright span {
+  font-size: 16px;
+  font-family: "Red Rose", cursive;
+  font-weight: 400;
+  color: #F7F7F7;
+}
+.place-section footer .footerChild {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 180px;
+}
+.place-section footer .footerChild nav {
+  display: flex;
+  flex-direction: column;
+}
+.place-section footer .footerChild nav p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-family: "Red Rose", cursive;
+}
+.place-section footer .footerChild nav a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: "Red Rose", cursive;
+  margin-bottom: 15px;
+}
+.place-section .modal-section {
+  max-width: 100%;
+  background-color: rgba(64, 64, 64, 0.281);
+  z-index: 1;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: -800px;
+}
+.place-section .modal-section .modal-wallet-select {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 320px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-top: -50px;
+}
+.place-section .modal-section .modal-wallet-select .wallet-select-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  align-items: center;
+  border-bottom: 1px solid #CFD8DC;
+}
+.place-section .modal-section .modal-wallet-select .wallet-select-nav p {
+  font-family: "Red Rose", cursive;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 700;
+}
+.place-section .modal-section .modal-wallet-select .wallet-select-nav img {
+  width: 24px;
+  height: 24px;
+}
+.place-section .modal-section .modal-wallet-select .wallet-type-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+.place-section .modal-section .modal-wallet-select .wallet-type-nav span {
+  font-size: 16px;
+  font-weight: 400;
+  font-weight: "Red Rose", cursive;
+  color: #333333;
+}
+.place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div {
+  display: flex;
+  flex-direction: row;
+  width: 536px;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #CFD8DC;
+  justify-content: space-between;
+  padding: 8px;
+}
+.place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div img {
+  width: 44px;
+  height: 44px;
+}
+.place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+}
+.place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div .arrow {
+  width: 15px;
+  height: 12px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+  .place-section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    justify-content: center;
+  }
+  .place-section header {
+    background-color: transparent;
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 68px;
+    align-items: center;
+  }
+  .place-section header img {
+    width: 120px;
+    height: 33px;
+  }
+  .place-section header .menu {
+    display: none;
+  }
+  .place-section header div {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .place-section header div a {
+    text-decoration: none;
+    font-family: "Red Rose", cursive;
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+  }
+  .place-section header div button {
+    display: none;
+  }
+  .place-section header .normal-div {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .place-section header .normal-div a {
+    text-decoration: none;
+    font-family: "Red Rose", cursive;
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+  }
+  .place-section header .normal-div button {
+    display: none;
+  }
+  .place-section header button {
+    width: 120px;
+    background-image: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 48px;
+    text-align: center;
+    border: none;
+  }
+  .place-section .subsection-class {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+  }
+  .place-section .subsection-class div {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    flex-wrap: wrap;
+  }
+  .place-section .subsection-class div a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Red Rose", cursive;
+    color: #434343;
+    text-decoration: none;
+  }
+  .place-section .subsection-class nav {
+    display: flex;
+    flex: row;
+    width: 161px;
+    height: 48px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+  }
+  .place-section .subsection-class nav p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Red Rose", cursive;
+    color: #434343;
+  }
+  .place-section .subsection-class nav img {
+    width: 24px;
+    height: 24px;
+  }
+  .place-section .adventure-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    margin-top: 25px;
+  }
+  .place-section .adventure-section h2 {
+    font-family: "Red Rose", cursive;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .place-section .adventure-section .adventureCh {
+    display: grid;
+    grid-template-columns: 160px 160px 160px 160px;
+    justify-content: center;
+    gap: 10px;
+    row-gap: 20px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn {
+    height: 250px;
+    border-radius: 15px;
+    border: 1px solid #D7D7D7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn img {
+    width: 130px;
+    align-self: center;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8px;
+    gap: 10px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 span {
+    font-size: 8px;
+    font-weight: 400;
+    color: #434343;
+    font-family: "Red Rose", cursive;
+    width: 170px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 h6 {
+    font-size: 8px;
+    font-weight: 700;
+    color: #434343;
+    font-family: "Red Rose", cursive;
+    width: 200px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section2 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 30px;
+    padding-left: 27px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section2 img {
+    width: 12px;
+    height: 12px;
+  }
+  .place-section footer {
+    background-color: #1D1D1E;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  .place-section footer .footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    padding-top: 15px;
+  }
+  .place-section footer .footer-div img {
+    width: 133px;
+  }
+  .place-section footer .footer-div .social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  .place-section footer .footer-div .social-media img {
+    width: 18px;
+    height: 18px;
+  }
+  .place-section footer .footer-div .copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .place-section footer .footer-div .copyright img {
+    width: 18px;
+    height: 18px;
+  }
+  .place-section footer .footer-div .copyright span {
+    font-size: 16px;
+    font-family: "Red Rose", cursive;
+    font-weight: 400;
+    color: #F7F7F7;
+  }
+  .place-section footer .footerChild {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 100px;
+  }
+  .place-section footer .footerChild nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .place-section footer .footerChild nav p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Red Rose", cursive;
+  }
+  .place-section footer .footerChild nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Red Rose", cursive;
+    margin-bottom: 15px;
+  }
+  .place-section .modal-section {
+    max-width: 100%;
+    background-color: rgba(64, 64, 64, 0.281);
+    z-index: 1;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: -800px;
+  }
+  .place-section .modal-section .modal-wallet-select {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 320px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: -50px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-select-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    align-items: center;
+    border-bottom: 1px solid #CFD8DC;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-select-nav p {
+    font-family: "Red Rose", cursive;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-select-nav img {
+    width: 24px;
+    height: 24px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav span {
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: "Red Rose", cursive;
+    color: #333333;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div {
+    display: flex;
+    flex-direction: row;
+    width: 536px;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #CFD8DC;
+    justify-content: space-between;
+    padding: 8px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div img {
+    width: 44px;
+    height: 44px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Sora", sans-serif;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div .arrow {
+    width: 15px;
+    height: 12px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 582px) {
+  .place-section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    justify-content: center;
+  }
+  .place-section header {
+    background-color: transparent;
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 28px;
+    align-items: center;
+  }
+  .place-section header img {
+    width: 60px;
+    height: 33px;
+  }
+  .place-section header .menu {
+    display: none;
+  }
+  .place-section header div {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .place-section header div a {
+    text-decoration: none;
+    font-family: "Red Rose", cursive;
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+  }
+  .place-section header div button {
+    display: none;
+  }
+  .place-section header .normal-div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .place-section header .normal-div a {
+    text-decoration: none;
+    font-family: "Red Rose", cursive;
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+  }
+  .place-section header .normal-div button {
+    display: none;
+  }
+  .place-section header button {
+    width: 90px;
+    background-image: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 40px;
+    text-align: center;
+    border: none;
+  }
+  .place-section .subsection-class {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+  }
+  .place-section .subsection-class div {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    flex-wrap: wrap;
+    width: 450px;
+    justify-content: center;
+  }
+  .place-section .subsection-class div a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Red Rose", cursive;
+    color: #434343;
+    text-decoration: none;
+  }
+  .place-section .subsection-class nav {
+    display: flex;
+    flex: row;
+    width: 161px;
+    height: 48px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+  }
+  .place-section .subsection-class nav p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Red Rose", cursive;
+    color: #434343;
+  }
+  .place-section .subsection-class nav img {
+    width: 24px;
+    height: 24px;
+  }
+  .place-section .adventure-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+  }
+  .place-section .adventure-section h2 {
+    font-family: "Red Rose", cursive;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .place-section .adventure-section .adventureCh {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    justify-content: center;
+    gap: 10px;
+    row-gap: 20px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn {
+    height: 250px;
+    border-radius: 15px;
+    border: 1px solid #D7D7D7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn img {
+    width: 130px;
+    align-self: center;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8px;
+    gap: 10px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 span {
+    font-size: 8px;
+    font-weight: 400;
+    color: #434343;
+    font-family: "Red Rose", cursive;
+    width: 170px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 h6 {
+    font-size: 8px;
+    font-weight: 700;
+    color: #434343;
+    font-family: "Red Rose", cursive;
+    width: 200px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section2 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 30px;
+    padding-left: 27px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section2 img {
+    width: 12px;
+    height: 12px;
+  }
+  .place-section footer {
+    background-color: #1D1D1E;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  .place-section footer .footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    padding-top: 15px;
+  }
+  .place-section footer .footer-div img {
+    width: 133px;
+  }
+  .place-section footer .footer-div .social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .place-section footer .footer-div .social-media img {
+    width: 18px;
+    height: 18px;
+  }
+  .place-section footer .footer-div .copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .place-section footer .footer-div .copyright img {
+    width: 18px;
+    height: 18px;
+  }
+  .place-section footer .footer-div .copyright span {
+    font-size: 16px;
+    font-family: "Red Rose", cursive;
+    font-weight: 400;
+    color: #F7F7F7;
+  }
+  .place-section footer .footerChild {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+  }
+  .place-section footer .footerChild nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .place-section footer .footerChild nav p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Red Rose", cursive;
+  }
+  .place-section footer .footerChild nav a {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Red Rose", cursive;
+    margin-bottom: 15px;
+  }
+  .place-section .modal-section {
+    max-width: 100%;
+    background-color: rgba(64, 64, 64, 0.281);
+    z-index: 1;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: -800px;
+  }
+  .place-section .modal-section .modal-wallet-select {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 280px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: -50px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-select-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #CFD8DC;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-select-nav p {
+    font-family: "Red Rose", cursive;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-select-nav img {
+    width: 20px;
+    height: 20px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav span {
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: "Red Rose", cursive;
+    color: #333333;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #CFD8DC;
+    justify-content: space-between;
+    padding: 4px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div img {
+    width: 34px;
+    height: 34px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Sora", sans-serif;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div .arrow {
+    width: 15px;
+    height: 12px;
+  }
+}
+@media screen and (max-width: 581px) and (min-width: 320px) {
+  .place-section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    justify-content: center;
+  }
+  .place-section header {
+    background-color: transparent;
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50vw;
+    margin-top: 28px;
+    align-items: center;
+  }
+  .place-section header img {
+    width: 80px;
+    height: 40px;
+  }
+  .place-section header .menu {
+    display: flex;
+    width: 30px;
+    height: 25px;
+  }
+  .place-section header div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 100%;
+    align-items: center;
+    z-index: 1;
+    margin-top: -200px;
+  }
+  .place-section header div img {
+    width: 40px;
+    height: 40px;
+  }
+  .place-section header div a {
+    text-decoration: none;
+    font-family: "Red Rose", cursive;
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+  }
+  .place-section header div .menu_btn {
+    width: 120px;
+    background-image: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .place-section header .normal-div {
+    display: none;
+    flex-direction: row;
+    gap: 35px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .place-section header .normal-div a {
+    text-decoration: none;
+    font-family: "Red Rose", cursive;
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+  }
+  .place-section header .normal-div button {
+    display: none;
+  }
+  .place-section header .connect {
+    display: none;
+  }
+  .place-section .subsection-class {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+  }
+  .place-section .subsection-class div {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    flex-wrap: wrap;
+    width: 350px;
+    justify-content: center;
+  }
+  .place-section .subsection-class div a {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Red Rose", cursive;
+    color: #434343;
+    text-decoration: none;
+  }
+  .place-section .subsection-class nav {
+    display: flex;
+    flex: row;
+    width: 161px;
+    height: 48px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+  }
+  .place-section .subsection-class nav p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Red Rose", cursive;
+    color: #434343;
+  }
+  .place-section .subsection-class nav img {
+    width: 24px;
+    height: 24px;
+  }
+  .place-section .adventure-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+  }
+  .place-section .adventure-section h2 {
+    font-family: "Red Rose", cursive;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .place-section .adventure-section .adventureCh {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: center;
+    gap: 10px;
+    row-gap: 20px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn {
+    height: 250px;
+    border-radius: 15px;
+    border: 1px solid #D7D7D7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn img {
+    width: 120px;
+    align-self: center;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8px;
+    gap: 10px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 span {
+    font-size: 8px;
+    font-weight: 400;
+    color: #434343;
+    font-family: "Red Rose", cursive;
+    width: 200px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section1 h6 {
+    font-size: 8px;
+    font-weight: 700;
+    color: #434343;
+    font-family: "Red Rose", cursive;
+    width: 220px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section2 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 30px;
+    padding-left: 27px;
+  }
+  .place-section .adventure-section .adventureCh .adventure-sectionn .adventure-section2 img {
+    width: 12px;
+    height: 12px;
+  }
+  .place-section footer {
+    background-color: #1D1D1E;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 15px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  .place-section footer .footer-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-top: 15px;
+    order: 2;
+  }
+  .place-section footer .footer-div img {
+    width: 100px;
+  }
+  .place-section footer .footer-div .social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .place-section footer .footer-div .social-media img {
+    width: 14px;
+    height: 14px;
+  }
+  .place-section footer .footer-div .copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .place-section footer .footer-div .copyright img {
+    width: 14px;
+    height: 14px;
+  }
+  .place-section footer .footer-div .copyright span {
+    font-size: 14px;
+    font-family: "Red Rose", cursive;
+    font-weight: 400;
+    color: #F7F7F7;
+  }
+  .place-section footer .footerChild {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    order: 1;
+  }
+  .place-section footer .footerChild nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .place-section footer .footerChild nav p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Red Rose", cursive;
+  }
+  .place-section footer .footerChild nav a {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Red Rose", cursive;
+    margin-bottom: 15px;
+  }
+  .place-section .modal-section {
+    max-width: 100%;
+    background-color: rgba(64, 64, 64, 0.281);
+    z-index: 1;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: -800px;
+  }
+  .place-section .modal-section .modal-wallet-select {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 280px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: -50px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-select-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #CFD8DC;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-select-nav p {
+    font-family: "Red Rose", cursive;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-select-nav img {
+    width: 20px;
+    height: 20px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav span {
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: "Red Rose", cursive;
+    color: #333333;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #CFD8DC;
+    justify-content: space-between;
+    padding: 4px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div img {
+    width: 24px;
+    height: 24px;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div div p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Sora", sans-serif;
+  }
+  .place-section .modal-section .modal-wallet-select .wallet-type-nav .wallet-type-div .arrow {
+    width: 15px;
+    height: 12px;
+  }
+}/*# sourceMappingURL=place-to-live.css.map */

@@ -867,7 +867,7 @@ $font: 'Red Rose', cursive;
             margin-top: 28px;
             align-items: center;
             img {
-                width: 80px;
+                width: 60px;
                 height: 33px;
             } 
             .menu {
@@ -893,13 +893,13 @@ $font: 'Red Rose', cursive;
             .normal-div {
                 display: flex;
                 flex-direction: row;
-                gap: 35px;
+                gap: 15px;
                 max-width: 100%;
                 align-items: center;
                 a {
                     text-decoration: none;
                     font-family: $font;
-                    font-size: 20px;
+                    font-size: 16px;
                     color: black;
                     font-weight: 300;
                 }
@@ -1317,7 +1317,7 @@ $font: 'Red Rose', cursive;
                     max-width: 100%;
                     align-items: center;
                     z-index: 1;
-                    margin-top: -200px;
+                    margin-top: 50px;
                     img {
                         width: 40px;
                         height: 40px;
